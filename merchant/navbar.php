@@ -35,14 +35,15 @@
     <div class="container mx-auto py-4 px-6">
       <div class="flex items-center justify-between">
         <div class="flex items-center space-x-4">
-          <a href="#" class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-animate">Ecommerce</a>
+          <a href="../index.php"
+            class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-animate">UrbanNest</a>
           <nav class="hidden md:flex space-x-4">
-            <a href="index.php"
+            <a href="../index.php"
               class="text-gray-600 hover:text-blue-500 transition duration-300 ease-in-out transform hover:scale-110">Home</a>
-            <a href="about.php"
+            <a href="../about.php"
               class="text-gray-600 hover:text-blue-500 transition duration-300 ease-in-out transform hover:scale-110">About
               Us</a>
-            <a href="contact.php"
+            <a href="../contact.php"
               class="text-gray-600 hover:text-blue-500 transition duration-300 ease-in-out transform hover:scale-110">Contact</a>
           </nav>
         </div>
