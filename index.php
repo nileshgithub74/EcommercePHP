@@ -19,22 +19,9 @@ include("navbar.php");
   }
 </script>
 
-<div class="container mx-auto px-4 py-12">
-  <div class="flex flex-col md:flex-row items-center justify-between">
-    <div class="w-full md:w-1/2 mb-8 md:mb-0">
-      <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Discover Our New Arrivals</h1>
-      <p class="text-lg mb-6">Explore our latest products and find something special for yourself or your loved ones.
-      </p>
-      <a href="customer-login.php"
-        class="bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold shadow-lg focus:outline-none focus:ring focus:border-blue-300">Shop
-        Now</a>
-    </div>
-    <div class="w-full md:w-1/2">
-      <img src="./images/hero.png" alt="Hero Image" class="rounded-lg w-5/6 m-auto">
-    </div>
-  </div>
-</div>
-</section>
+<?php
+include("./Landing/hero.php");
+?>
 <section class="featured-products py-12">
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-semibold text-gray-800 mb-6">Featured Products</h2>
@@ -153,15 +140,6 @@ include("navbar.php");
     </div>
   </div>
 </footer>
-<section class="bg-gray-100 py-12">
-  <div class="container mx-auto px-4">
-    <div class="flex justify-center items-center space-x-6">
-      <i data-lucide="shield-plus"></i>
-      <i data-lucide="banknote"></i>
-      <i data-lucide="shield-check"></i>  
-    </div>
-  </div>
-</section>
 <script src="https://unpkg.com/lucide@latest"></script>
 <script>
   lucide.createIcons();

@@ -43,6 +43,18 @@
                 </div>
             </button>
         </form>
+        <form action="category-engine.php" method="post">
+            <input type="hidden" name="category" value="Accessories">
+            <button type="submit" name="show_category"
+                class="group bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                <img src="./images/accessories.png" alt="Home Decor" class="w-full h-64 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold text-gray-800 group-hover:text-blue-500 transition duration-300">
+                        Accessories
+                    </h3>
+                </div>
+            </button>
+        </form>
         <!-- Repeat the above structure for other categories -->
 
         <!-- Add more category items as needed -->

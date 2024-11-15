@@ -12,7 +12,7 @@ include("config/config.php");
 <body>
   <?php
 
-  $sql = "SELECT * FROM product LIMIT 5";
+  $sql = "SELECT * FROM product LIMIT 4";
   $query = mysqli_query($db, $sql);
 
   if (mysqli_num_rows($query) > 0) {
